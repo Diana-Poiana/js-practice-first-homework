@@ -16,6 +16,8 @@ const b = prompt('What is your raiting for this movie?', '');
 const c = prompt('Which movie was the last you have seen?', '');
 const d = prompt('What is your raiting for this movie?', '');
 
+
+
 lastWatchedMovie = a;
 
 lastWatchedMovieRating = b;
@@ -28,6 +30,8 @@ personalMovieDB.movies[c] = d;
 
 
 console.log(personalMovieDB);
+
+
 
 
 
